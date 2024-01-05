@@ -19,7 +19,7 @@
 }
 .hero__title {
   width: 696px;
-  color: #fff;
+  color: $subBaseColor;
   text-align: center;
   font-size: 44px;
   font-weight: 900;
@@ -37,8 +37,8 @@
   line-height: 30px;
   letter-spacing: 0.96px;
   border-radius: 4px;
-  background: #2196f3;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background: $activeColor;
+  box-shadow: 0px 4px 4px 0px $shadowColor;
   width: 216px;
   height: 50px;
   display: flex;
@@ -46,7 +46,7 @@
   margin-left: 35%;
   padding-left: 30px;
   margin-top: 30px;
-  border: #2195f356;
+  border: $activeColor;
 }
 .hero__backdrop {
   position: fixed;
@@ -54,7 +54,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #0000003e;
+  background-color: $backdrop;
   opacity: 1;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -69,12 +69,12 @@
   min-width: 528px;
   min-height: 581px;
   padding: 40px;
-  background-color: #fff;
+  background-color: $subBaseColor;
   transform: translate(-50%, -50%) scale(0);
   border-radius: 4px;
-  background: #fff;
-  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  background: $subBaseColor;
+  box-shadow: 0px 2px 1px 0px $shadowSubColor, 0px 1px 1px 0px $shadow,
+    0px 1px 3px 0px $shadowSub;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal.effect {
@@ -97,7 +97,7 @@
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal__button-close:hover {
-  color: #2196f3;
+  color: $activeColor;
   transform: scale(1.25);
 }
 .modal__title {
@@ -115,7 +115,7 @@
   display: flex;
   align-items: center;
   gap: 12px;
-  border: 1px solid rgba(33, 33, 33, 0.2);
+  border: 1px solid $borders;
   border-radius: 4px;
   padding-left: 11px;
   margin-bottom: 10px;
@@ -132,17 +132,17 @@
 }
 .form__label {
   display: flex;
-  color: #757575;
+  color: $descriptionColor;
   font-size: 12px;
   font-weight: 400;
   letter-spacing: 0.12px;
   padding-bottom: 4px;
 }
 .form__wrapper:focus-within {
-  border-color: #2196f3;
+  border-color: $activeColor;
 }
 .form__wrapper:focus-within .form__svg {
-  fill: #2196f3;
+  fill: $activeColor;
 }
 textarea {
   width: 448px;
@@ -151,13 +151,13 @@ textarea {
   height: 120px;
   padding: 12px 16px;
   border-radius: 4px;
-  border: 1px solid rgba(33, 33, 33, 0.2);
+  border: 1px solid $borders;
   margin-bottom: 20px;
   outline: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 textarea#comment:focus {
-  border-color: #2196f3;
+  border-color: $activeColor;
 }
 .form__wrapper-check {
   display: flex;
@@ -173,23 +173,23 @@ textarea#comment:focus {
   outline: none;
 }
 .form__title {
-  color: #757575;
+  color: $descriptionColor;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px; /* 171.429% */
   letter-spacing: 0.42px;
 }
 .form__title-active {
-  color: #2196f3;
+  color: $activeColor;
   text-decoration: underline;
 }
 .form__button {
   border-radius: 4px;
-  background: #2196f3;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background: $activeColor;
+  box-shadow: 0px 4px 4px 0px $shadowColor;
   padding: 10px 52px;
   border: none;
-  color: #fff;
+  color: $subBaseColor;
   text-align: center;
   font-size: 16px;
   line-height: 30px; /* 187.5% */

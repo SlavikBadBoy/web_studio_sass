@@ -99,7 +99,7 @@ li {
 
 .hero__title {
   width: 696px;
-  color: #fff;
+  color: #ffffff;
   text-align: center;
   font-size: 44px;
   font-weight: 900;
@@ -127,7 +127,7 @@ li {
   margin-left: 35%;
   padding-left: 30px;
   margin-top: 30px;
-  border: rgba(33, 149, 243, 0.337254902);
+  border: #2196f3;
 }
 
 .hero__backdrop {
@@ -153,10 +153,10 @@ li {
   min-width: 528px;
   min-height: 581px;
   padding: 40px;
-  background-color: #fff;
+  background-color: #ffffff;
   transform: translate(-50%, -50%) scale(0);
   border-radius: 4px;
-  background: #fff;
+  background: #ffffff;
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -291,7 +291,7 @@ textarea#comment:focus {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   padding: 10px 52px;
   border: none;
-  color: #fff;
+  color: #ffffff;
   text-align: center;
   font-size: 16px;
   line-height: 30px; /* 187.5% */
@@ -375,7 +375,7 @@ textarea#comment:focus {
 .case__title {
   display: flex;
   background: rgba(47, 48, 58, 0.8);
-  color: #fff;
+  color: #ffffff;
   position: absolute;
   justify-content: center;
   align-items: center;
@@ -479,7 +479,7 @@ textarea#comment:focus {
 }
 
 .list-contacts__address {
-  color: #fff;
+  color: #ffffff;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.42px;
@@ -527,7 +527,7 @@ textarea#comment:focus {
 
 .categories__item:hover {
   background-color: #2196f3;
-  color: #fff;
+  color: #2196f3;
   cursor: pointer;
 }
 
@@ -546,13 +546,13 @@ textarea#comment:focus {
 .project {
   width: 370px;
   border: 1px solid #eee;
-  background: #fff;
+  background: #ffffff;
   position: relative;
   overflow: hidden;
 }
 
 .project:hover {
-  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.15), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
 .project__overlay {
@@ -587,7 +587,7 @@ textarea#comment:focus {
 }
 
 .overlay__text {
-  color: #fff;
+  color: #ffffff;
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;

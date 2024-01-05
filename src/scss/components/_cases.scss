@@ -9,13 +9,13 @@
   line-height: 42px;
   text-align: center;
   letter-spacing: 0, 03em;
-  color: #212121;
+  color: $baseColor;
   margin-bottom: 50px;
 }
 .case__title {
   display: flex;
-  background: rgba(47, 48, 58, 0.8);
-  color: #fff;
+  background: $mainBackground;
+  color: $subBaseColor;
   position: absolute;
   justify-content: center;
   align-items: center;
