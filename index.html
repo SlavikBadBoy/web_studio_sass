@@ -28,7 +28,9 @@
               <a href="index.html" class="nav__link">Студія</a>
             </li>
             <li class="nav__item">
-              <a href="portfolio.html" class="nav__link">Портфоліо</a>
+              <a href="/src/pages/portfolio.html" class="nav__link"
+                >Портфоліо</a
+              >
             </li>
             <li class="nav__item">
               <a href="#" class="nav__link">Контакти</a>
@@ -55,7 +57,7 @@
           <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
           <button class="hero__button" data-modal-open>Замовити послугу</button>
         </div>
-        <div class="hero__backdrop hero__is-hidden" data-backdrop>
+        <div class="hero__backdrop is-hidden" data-backdrop>
           <div class="modal" data-modal>
             <button class="modal__button-close" data-modal-close>X</button>
             <h3 class="modal__title">Залиште свої дані, ми вам передзвонимо</h3>
@@ -63,7 +65,7 @@
               <label for="name" class="form__label">Ім'я</label>
               <div class="form__wrapper">
                 <svg class="form__svg">
-                  <use href="/src/images/pages/modal.svg#person-black"></use>
+                  <use href="/src/images/hero/modal.svg#person-black"></use>
                 </svg>
                 <input
                   type="name"
@@ -76,7 +78,7 @@
               <label for="name" class="form__label">Телефон</label>
               <div class="form__wrapper">
                 <svg class="form__svg">
-                  <use href="/src/images/pages/modal.svg#phone-black"></use>
+                  <use href="/src/images/hero/modal.svg#phone-black"></use>
                 </svg>
                 <input
                   type="tel"
@@ -89,7 +91,7 @@
               <label for="name" class="form__label">Пошта</label>
               <div class="form__wrapper">
                 <svg class="form__svg">
-                  <use href="/src/images/pages/modal.svg#email-black"></use>
+                  <use href="/src/images/hero/modal.svg#email-black"></use>
                 </svg>
                 <input
                   type="email"
@@ -100,7 +102,7 @@
                 />
               </div>
               <label for="comment" class="form__label">Коментар</label>
-              <textarea name="" id="comment" cols="100%" rows="100%"></textarea>
+              <textarea name="" id="comment"></textarea>
               <div class="form__wrapper-check">
                 <input type="checkbox" id="check" name="check" required />
                 <label for="check" class="form__title"
@@ -125,7 +127,7 @@
               <div class="advantage__photo">
                 <svg class="advantage__icon">
                   <use
-                    href="/src/images/pages/symbol-defs.svg#icon-antenna"
+                    href="/src/images/advantages/symbol-defs.svg#icon-antenna"
                   ></use>
                 </svg>
               </div>
@@ -139,7 +141,7 @@
               <div class="advantage__photo">
                 <svg class="advantage__icon">
                   <use
-                    href="/src/images/pages/symbol-defs.svg#icon-clock"
+                    href="/src/images/advantages/symbol-defs.svg#icon-clock"
                   ></use>
                 </svg>
               </div>
@@ -153,7 +155,7 @@
               <div class="advantage__photo">
                 <svg class="advantage__icon">
                   <use
-                    href="/src/images/pages/symbol-defs.svg#icon-diagram"
+                    href="/src/images/advantages/symbol-defs.svg#icon-diagram"
                   ></use>
                 </svg>
               </div>
@@ -166,7 +168,7 @@
               <div class="advantage__photo">
                 <svg class="advantage__icon">
                   <use
-                    href="/src/images/pages/symbol-defs.svg#icon-astronaut"
+                    href="/src/images/advantages/symbol-defs.svg#icon-astronaut"
                   ></use>
                 </svg>
               </div>
@@ -186,7 +188,7 @@
             <div class="cases__item case">
               <img
                 class="case__img"
-                src="/src/images/pages/desktop.jpg"
+                src="/src/images/works/desktop.jpg"
                 alt="Персональний комп'ютер"
               />
               <h3 class="case__title">Десктопні додатки</h3>
@@ -194,7 +196,7 @@
             <div class="cases__item case">
               <img
                 class="case__img"
-                src="/src/images/pages/mobile.jpg"
+                src="/src/images/works/mobile.jpg"
                 alt="Мобільний телефон"
               />
               <h3 class="case__title">Мобільні додатки</h3>
@@ -202,7 +204,7 @@
             <div class="cases__item case">
               <img
                 class="case__img"
-                src="/src/images/pages/design.jpg"
+                src="/src/images/works/design.jpg"
                 alt="Планшет"
               />
               <h3 class="case__title">Дизайнерські рішення</h3>
@@ -218,7 +220,7 @@
               <div class="employee__photo">
                 <img
                   class="employee__img"
-                  src="/src/images/pages/member-1.jpg"
+                  src="/src/images/team/member-1.jpg"
                   alt="Фото Ігор Дем'яненко"
                 />
               </div>
@@ -231,7 +233,7 @@
               <div class="employee__photo">
                 <img
                   class="employee__img"
-                  src="/src/images/pages/member-2.jpg"
+                  src="/src/images/team/member-2.jpg"
                   alt="Фото Ольга Рєпіна"
                 />
               </div>
@@ -244,7 +246,7 @@
               <div class="employee__photo">
                 <img
                   class="employee__img"
-                  src="/src/images/pages/member-3.jpg"
+                  src="/src/images/team/member-3.jpg"
                   alt="Фото Микола Тарасов"
                 />
               </div>
@@ -257,7 +259,7 @@
               <div class="employee__photo">
                 <img
                   class="employee__img"
-                  src="/src/images/pages/member-4.jpg"
+                  src="/src/images/team/member-4.jpg"
                   alt="Фото Михайло Єрмаков"
                 />
               </div>
